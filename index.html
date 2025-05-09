@@ -1,115 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=1024">
-
-  <title>Shopping Website</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-  <div class="wrapper">
-    <!-- Header, hero, products, footer here -->
-  
-  
-  <!-- Header Section -->
-  <header class="header">
-    <div class="logo">ShopNow</div>
-    <div id="id"><input type placeholder="Search Now">
-      <button>Search</button></div>
-    <nav class="navbar">
-      <a href="#">Home</a>
-      <a href="#">Products</a>
-      <a href="#">About Us</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
+    <header class="navbar">
+        <div class="logo">
+            <i class="fab fa-amazon"></i> Amazon
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search Amazon">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <div class="nav-links">
+            <a href="#"><i class="fas fa-user"></i> Sign In</a>
+            <a href="#"><i class="fas fa-box"></i> Orders</a>
+            <a href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
+        </div>
+    </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <h1>Welcome to ShopNow</h1>
-    <p>Your one-stop shop for all your needs!</p>
-  </section>
+    <section class="hero">
+        <h1>Welcome to Amazon Clone</h1>
+        <p>Shop now for the best deals!</p>
+    </section>
 
-  <!-- Product Section -->
-  <section class="products">
-    <h2>Featured Products</h2>
-    <div class="product-list">
-      <div class="product">
-        <img src="https://www.garmin.pk/images/product_gallery/1665572866_cf-lg.webp" alt="Product 1">
-        <h3>Product 1</h3>
-        <p id="Black">$10.00</p>
-        <button id="buy">buy now</button>
-      </div>
-      <div class="product">
-        <img src="https://cdn.shopify.com/s/files/1/0304/3821/products/Currensmartwatch218.jpg?v=1655203460" alt="Product 2">
-        <h3>Product 2</h3>
-        <p id="Black">$15.00</p>
-        <button id="buy">buy now</button>
-      </div>
-      <div class="product">
-        <img src="https://m.media-amazon.com/images/I/719sYf57KnL.jpg" alt="Product 3">
-        <h3>Product 3</h3>
-        <p id="Black">$20.00</p>
-        <button id="buy">buy now</button>
-      </div>
-      <div class="product">
-        <img src="https://sc04.alicdn.com/kf/H28be77c2500c4d5288bc3d1b74621b8dc.jpg" alt="Product 3">
-        <h3>Product 4</h3>
-        <p id="Black">$40.00</p>
-        <button id="buy">buy now</button>
-      </div>
-      <div class="product">
-        <img src="https://login.com.pk/cdn/shop/files/L-101SmartWatch-2.webp?v=1744750722&width=533" alt="Product 3">
-        <h3>Product 5</h3>
-        <p id="Black">$50.00</p>
-        <button id="buy">buy now</button>
-      </div>
-   
-    </div>
-  </section>
-  <section class="products">
-    <h2>Latest</h2>
-    <div class="product-list">
-      <div class="product">
-        <img src="https://www.garmin.pk/images/product_gallery/1665572866_cf-lg.webp" alt="Product 1">
-        <h3>Product 6</h3>
-        <p id="Black">$10.00</p>
-        <button id="buy">buy now</button>
-      </div>
-      <div class="product">
-        <img src="https://cdn.shopify.com/s/files/1/0304/3821/products/Currensmartwatch218.jpg?v=1655203460" alt="Product 2">
-        <h3>Product 7</h3>
-        <p id="Black">$15.00</p>
-        <button id="buy">buy now</button>
-      </div>
-      <div class="product">
-        <img src="https://m.media-amazon.com/images/I/719sYf57KnL.jpg" alt="Product 3">
-        <h3>Product 8</h3>
-        <p id="Black">$20.00</p>
-        <button id="buy">buy now</button>
-      </div>
-      <div class="product">
-        <img src="https://sc04.alicdn.com/kf/H28be77c2500c4d5288bc3d1b74621b8dc.jpg" alt="Product 3">
-        <h3>Product 9</h3>
-        <p id="Black">$40.00</p>
-        <button id="buy">buy now</button>
-      </div>
-      <div class="product">
-        <img src="https://login.com.pk/cdn/shop/files/L-101SmartWatch-2.webp?v=1744750722&width=533" alt="Product 3">
-        <h3>Product 10</h3>
-        <p id="Black">$50.00</p>
-        <button id="buy">buy now</button>
-      </div>
-   
-    </div>
-  </section>
-
-
-  <!-- Footer Section -->
-  <footer class="footer">
-    <p>&copy; 2025 ShopNow. All rights reserved.</p>
-  </footer>
-</div>
+    <section class="products">
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="Product">
+            <h3>Wireless Headphones</h3>
+            <p>$59.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="Product">
+            <h3>Smart Watch</h3>
+            <p>$99.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="Product">
+            <h3>Bluetooth Speaker</h3>
+            <p>$29.99</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
 </body>
 </html>
