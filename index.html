@@ -1,52 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazon Clone</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header class="navbar">
-        <div class="logo">
-            <i class="fab fa-amazon"></i> Amazon
+  <header>
+    <div class="navbar">
+      <div class="nav-logo border">
+        <div class="logo"></div>
+      </div>
+      <div class="nav-address border">
+        <p class="adr1">Deliver to</p>
+        <div class="add-icon">
+          <i class="fa-solid fa-location-dot"></i>
+          <p class="adr2">pakistan</p>
         </div>
-        <div class="search-box">
-            <input type="text" placeholder="Search Amazon">
-            <button><i class="fas fa-search"></i></button>
-        </div>
-        <div class="nav-links">
-            <a href="#"><i class="fas fa-user"></i> Sign In</a>
-            <a href="#"><i class="fas fa-box"></i> Orders</a>
-            <a href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
-        </div>
-    </header>
-
-    <section class="hero">
-        <h1>Welcome to Amazon Clone</h1>
-        <p>Shop now for the best deals!</p>
-    </section>
-
-    <section class="products">
-        <div class="product-card">
-            <img src="https://via.placeholder.com/200" alt="Product">
-            <h3>Wireless Headphones</h3>
-            <p>$59.99</p>
-            <button>Add to Cart</button>
-        </div>
-        <div class="product-card">
-            <img src="https://via.placeholder.com/200" alt="Product">
-            <h3>Smart Watch</h3>
-            <p>$99.99</p>
-            <button>Add to Cart</button>
-        </div>
-        <div class="product-card">
-            <img src="https://via.placeholder.com/200" alt="Product">
-            <h3>Bluetooth Speaker</h3>
-            <p>$29.99</p>
-            <button>Add to Cart</button>
-        </div>
-    </section>
+      </div>
+      <div class="navsearch"><select class="search-select">
+        <option>All</option> 
+      </select>
+      <input placeholder="Search Amazon" class="search-input">
+     <div class="search-icon"> <i class="fa-solid fa-magnifying-glass"></i> </div>
+      </div>
+      <div class="nav-singin border">
+        <p>
+          <span>Hello, sign in</span>
+        </p>
+        <p class="nav2">Account & List</p>
+      </div>
+      <div class="nav-return border" >
+        <p>
+          <span>Returns</span>
+        </p>
+        <p class="nav2">& Orders</p>
+      </div>
+      <div class="nav-cart border">
+        <i class="fa-solid fa-cart-shopping"></i>
+        cart
+      </div>
+    </div>
+    <div class="panel">
+      <div class="panel-all">
+        <i class="fa-solid fa-bars"></i>
+        All
+      </div>
+      <div class="panel-ops">
+        <p>Today's Deals</p>
+        <p> Registry</p>
+        <p>Prime Video</p>
+        <p> Gift Cards</p>
+        <p>Customer Service</p>
+        <p>Sell</p>
+      </div>
+      <div class="panel-deals">
+        Shop deals in Electronics
+      </div>
+    </div>
+  </header>
+  <div class="hero-section">
+    <div class="hero-massage">
+      <p>you are on amazon.com You can also Shop on Amazon Pakistan for millions of products with fast local delivery.   <a href="">Click here to go to amazon.pk</a></p>
+    </div>
+  </div>
 </body>
 </html>
